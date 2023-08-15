@@ -12,43 +12,12 @@ function App() {
   const [colaboradores, actualizarColaboradores] = useState([{
     id: uuid(),
     equipo: "Front End",
-    foto: "https://github.com/harlandlohora.png",
-    nombre: "Harland Lohora",
-    puesto: "Instructor",
+    foto: "https://media.licdn.com/dms/image/D5635AQFnRtT9jWKfsg/profile-framedphoto-shrink_100_100/0/1675261895529?e=1692201600&v=beta&t=ozzbKY9krWxU8nmxSsp4Kq9R_jDBR9i_0H1N63_bq48",
+    nombre: "José Joaquín Sánchez González",
+    puesto: "Dev en Formación",
     fav: true
-  },
-  {
-    id: uuid(),
-    equipo: "Programación",
-    foto: "https://github.com/genesysaluralatam.png",
-    nombre: "Genesys Rondón",
-    puesto: "Desarrolladora de software e instructora",
-    fav: false
-  },
-  {
-    id: uuid(),
-    equipo: "UX y Diseño",
-    foto: "https://github.com/JeanmarieAluraLatam.png",
-    nombre: "Jeanmarie Quijada",
-    puesto: "Instructora en Alura Latam",
-    fav: false
-  },
-  {
-    id: uuid(),
-    equipo: "Programación",
-    foto: "https://github.com/christianpva.png",
-    nombre: "Christian Velasco",
-    puesto: "Head de Alura e Instructor",
-    fav: false
-  },
-  {
-    id: uuid(),
-    equipo: "Innovación y Gestión",
-    foto: "https://github.com/JoseDarioGonzalezCha.png",
-    nombre: "Jose Gonzalez",
-    puesto: "Dev FullStack",
-    fav: false
-  }])
+    }])
+  
 
   const [equipos, actualizarEquipos] = useState([
     {
